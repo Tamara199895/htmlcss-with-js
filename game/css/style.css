@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#game{overflow: hidden;
+position: relative;
+left: 0;
+right: 0;
+margin: auto;
+height: 100vh;
+width: 50%;
+background: url(../nkar/kanach.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+#mytank{
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	bottom: 0;
+	left: 45%
+}
+.snaryad{
+	position: absolute;
+	bottom: 70px;
+	width: 40px;
+	height: 40px;
+}
+.enemy{
+	position: absolute;
+	top: 0;
+	transform: rotate(180deg);
+	width: 70px;
+	height: 70px;
+}
+#start{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 50%;
+	height: 100vh;
+	background: darkgreen;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+#btn{
+	min-width: 15%;
+	height: 50px;
+	color: #41FFB0;
+	font-size: 25px;
+	background:black;
+}
+.over{background: #41FFB0;
+	font-size: 50px;
+position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+		text-align: center;
+
+}
+
+#again{left: 33%;
+	min-height: 30px;
+	top: 11%;
+	position: absolute;
+	min-width: 30%;
+	font-size: 25px;
+	color: #41FFB0;
+	background:black;
+}
+
+.fire{
+	position: absolute;
+	bottom: 70px;
+	width: 40px;
+	height: 40px;
+}

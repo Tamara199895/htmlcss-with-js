@@ -1,0 +1,13 @@
+body{background: rgba(195,216,195,0.5);
+	margin-left: 40%;
+}
+
+button{
+	width:50px;
+	height: 50px;
+}
+input{
+	width: 89%;
+	padding: 10px;
+	text-align: right;
+}
